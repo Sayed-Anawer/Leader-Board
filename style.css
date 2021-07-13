@@ -262,16 +262,15 @@ grid-row-gap: 29px;
 nav{
   width:100%;
 }
-
   .container{
-    width: 95%;
+    width: 90%;
   }
-  /* .section-title{
+  .section-title{
     margin-left: 15px;
   }
   .player{
     margin-left: 15px;
-  } */
+  }
   .players,.blogs{ 
     grid-template-columns: repeat(2,1fr);
   }
@@ -281,8 +280,12 @@ nav{
   .blog > .blog-info{
     width: 177px
   }
+  .course{
+    width: 250px;
+  }
   .courses{
     justify-content: center;
+    padding: 5px;
   }
   
 }
